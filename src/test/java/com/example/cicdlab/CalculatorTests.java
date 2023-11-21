@@ -14,7 +14,7 @@ class CalculatorTests {
 	void addingTwoNumber() {
 		int a = 2;
 		int b = 5;
-		int expected = 7;
+		int expected = 8;
 		int result = calculator.add(a, b);
 
 		Assertions.assertEquals(expected, result);
